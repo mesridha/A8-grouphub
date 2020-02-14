@@ -1,8 +1,8 @@
 {
   "name" : "Meghana",
   "projects" : {
-    "Cse 170",
-    "Cse 190",
-    "Eng 100d"
+  "class_1": "CSE 170",
+  "class_2": "CSE 190",
+  "class_3": "ENG 100D"
   }
 }

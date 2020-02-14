@@ -16,7 +16,6 @@
 
 .jumbotron:after {
      content:"";
-     background: url("../images/lorempixel.jumbotron.jpeg");
      opacity: 0.2;
      top: 0;
      left: 0;
@@ -32,4 +31,92 @@
 
 .project a {
      text-align: center;
+}
+
+.body{
+     position: fixed;
+     overflow-y: scroll
+     width: 100%
+     top: -20px;
+     right: -40px;
+     bottom: -40px;
+     width: auto;
+     height: auto;
+     background-image: url("../images/lorempixel.abstract.1.jpeg");
+     background-size: cover;
+     -webkit-filter: blur(0px);
+
+}
+
+.login{
+
+     position: absolute;
+     top: calc (50% - 75px);
+     left: calc (50% - 50px);
+     height: 150px;
+     width: 350px;
+     padding: 10px;
+}
+
+.login input [type=text]{
+     width: 250px;
+     height: 30px;
+     background: transparent;
+     border: 1px solid rgba(0,0,0,0.6);
+     border-radius: 2px;
+     color: #91089A;
+     padding: 4px;
+}
+
+.login input [type=password]{
+     width: 250px;
+     height: 30px;
+     background: transparent;
+     border: 1px solid #0A47A2;
+     border-radius: 2px;
+     color: #91089A;
+     padding: 4px;
+}
+
+.login input [type=button]{
+     width: 260px;
+     height: 30px;
+     background: #0A47A2;
+     border: 1px solid #0A47A2;
+     cursor: pointer;
+     border-radius: 2px;
+     color: #91089A;
+     padding: 6px;
+     margin-top: 10px;
+
+}
+
+.login input [type=button]:hover{
+     opacity: 0.8;
+}
+
+.login input [type=button]:active{
+     opacity: 0.6;
+}
+
+.login input [type=text]:focus{
+     outline: none;
+     border: 1px solid #0A47A2;
+}
+
+.login input [type=password]:focus{
+     outline: none;
+     border: 1px solid #0A47A2;
+}
+
+.login input [type=button]:focus{
+     outline: none;
+}
+
+::-webkit-input-placeholder{
+     color: #91089A;
+}
+
+::-moz-input-placeholder{
+     color: #91089A;
 }
