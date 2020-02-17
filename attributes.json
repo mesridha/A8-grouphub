@@ -1,134 +1,121 @@
 {
-  "introverted": {
-    "ISTJ" : {
-      "att_1" : "Responsible",
-      "att_2" : "Sincere",
-      "att_3" : "Analytical",
-      "att_4" : "Reserved",
-      "att_5" : "Realistic",
-      "att_6" : "Systematic",
+  "introverted": [
+    { "type" : "ISTJ",
+
+      "attributes" :
+      ["Responsible", "Sincere",
+      "Analytical", "Reserved",
+      "Realistic", "Systematic"]
     },
-    "ISFJ" : {
-      "att_1" : "Warm",
-      "att_2" : "Considerate",
-      "att_3" : "Gentle",
-      "att_4" : "Responsible",
-      "att_5" : "Pragmatic",
-      "att_6" : "Thorough"
+    { "type" : "ISFJ",
+
+      "attributes" :
+      ["Warm", "Considerate",
+      "Gentle", "Responsible",
+      "Pragmatic", "Thorough"]
     },
-    "INFJ" : {
-      "att_1" : "Idealistic",
-      "att_2" : "Organized",
-      "att_3" : "Insightful",
-      "att_4" : "Dependable",
-      "att_5" : "Compassionate",
-      "att_6" : "Gentle"
+    { "type" : "INFJ",
+
+      "attributes" :
+      ["Idealistic", "Organized",
+      "Insightful", "Dependable",
+      "Compassionate", "Gentle"]
     },
-    "INTJ" : {
-      "att_1" : "Innovative",
-      "att_2" : "Independent",
-      "att_3" : "Strategic",
-      "att_4" : "Logical",
-      "att_5" : "Reserved",
-      "att_6" : "Insightful"
+    { "type" : "INTJ",
+
+      "attributes" :
+      ["Innovative", "Independent",
+      "Strategic", "Logical",
+      "Reserved", "Insightful"]
     },
-    "ISTP" : {
-      "att_1" : "Action-oriented",
-      "att_2" : "Logical",
-      "att_3" : "Analytical",
-      "att_4" : "Spontaneous",
-      "att_5" : "Reserved",
-      "att_6" : "Independent"
+    { "type" : "ISTP",
+
+      "attributes" :
+      ["Action-oriented", "Logical",
+      "Analytical", "Spontaneous",
+      "Reserved","Independent"]
     },
-    "ISFP" : {
-      "att_1" : "Gentle",
-      "att_2" : "Sensitive",
-      "att_3" : "Nurturing",
-      "att_4" : "Helpful",
-      "att_5" : "Flexible",
-      "att_6" : "Realistic"
+    { "type" : "ISFP",
+
+      "attributes" :
+      ["Gentle", "Sensitive",
+      "Nurturing", "Helpful",
+      "Flexible", "Realistic"]
     },
-    "INFP" : {
-      "att_1" : "Sensitive",
-      "att_2" : "Creative",
-      "att_3" : "Idealistic",
-      "att_4" : "Perceptive",
-      "att_5" : "Caring",
-      "att_6" : "Loyal"
+    { "type" : "INFP",
+
+      "attributes" :
+      ["Sensitive", "Creative",
+      "Idealistic", "Perceptive",
+      "Caring", "Loyal"]
     },
-    "INTP" : {
-      "att_1" : "Intellectual",
-      "att_2" : "Logical",
-      "att_3" : "Precise",
-      "att_4" : "Reserved",
-      "att_5" : "Flexible",
-      "att_6" : "Imaginative"
+    { "type" : "INTP",
+
+      "attributes" :
+      ["Intellectual", "Logical",
+      "Precise", "Reserved",
+      "Flexible", "Imaginative"]
     }
-  },
-  "extroverted": {
-    "ESTP" : {
-      "att_1" : "Outgoing",
-      "att_2" : "Realistic",
-      "att_3" : "Action-oriented",
-      "att_4" : "Curious",
-      "att_5" : "Versatile",
-      "att_6" : "Spontaneous"
+  ],
+
+  "extroverted": [
+    { "type" : "ESTP",
+
+      "attributes" :
+      ["Outgoing", "Realistic",
+      "Action-oriented", "Curious",
+      "Versatile", "Spontaneous"]
     },
-    "ESFP" : {
-      "att_1" : "Playful",
-      "att_2" : "Enthusiastic",
-      "att_3" : "Friendly",
-      "att_4" : "Spontaneous",
-      "att_5" : "Tactful",
-      "att_6" : "Flexible"
+    { "type" : "ESFP",
+
+      "attributes" :
+      ["Playful", "Enthusiastic",
+      "Friendly", "Spontaneous",
+      "Tactful", "Flexible"]
     },
-    "ENFP" : {
-      "att_1" : "Enthusiastic",
-      "att_2" : "Creative",
-      "att_3" : "Spontaneous",
-      "att_4" : "Optimistic",
-      "att_5" : "Supportive",
-      "att_6" : "Playful"
+    { "type" : "ENFP",
+
+      "attributes" :
+      ["Enthusiastic", "Creative",
+      "Spontaneous", "Optimistic",
+      "Supportive", "Playful"]
     },
-    "ENTP" : {
-      "att_1" : "Inventive",
-      "att_2" : "Enthusiastic",
-      "att_3" : "Strategic",
-      "att_4" : "Enterprising",
-      "att_5" : "Inquisitive",
-      "att_6" : "Versatile"
+    { "type" : "ENTP",
+
+      "attributes" :
+      ["Inventive", "Enthusiastic",
+      "Strategic", "Enterprising",
+      "Inquisitive", "Versatile"]
     },
-    "ESTJ" : {
-      "att_1" : "Efficient",
-      "att_2" : "Outgoing",
-      "att_3" : "Analytical",
-      "att_4" : "Systematic",
-      "att_5" : "Dependable",
-      "att_6" : "Realistic"
+    { "type" : "ESTJ",
+
+      "attributes" :
+      ["Efficient", "Outgoing",
+      "Analytical", "Systematic",
+      "Dependable", "Realistic"]
     },
-    "ESFJ" : {
-      "att_1" : "Friendly",
-      "att_2" : "Outgoing",
-      "att_3" : "Reliable",
-      "att_4" : "Conscientious",
-      "att_5" : "Organized",
-      "att_6" : "Practical"
+    { "type" : "ESFJ",
+
+      "attributes" :
+      ["Friendly","Outgoing",
+      "Reliable", "Conscientious",
+      "Organized", "Practical"]
     },
-    "ENFJ" : {
-      "att_1" : "Caring",
-      "att_2" : "Enthusiastic",
-      "att_3" : "Idealistic",
-      "att_4" : "Organized",
-      "att_5" : "Diplomatic",
-      "att_6" : "Responsible"
+    { "type" : "ENFJ",
+
+      "attributes" :
+      ["Caring", "Enthusiastic",
+      "Idealistic", "Organized",
+      "Diplomatic", "Responsible"]
     },
-    "ENTJ" : {
-      "att_1" : "Strategic",
-      "att_2" : "Logical",
-      "att_3" : "Efficient",
-      "att_4" : "Outgoing",
-      "att_5" : "Ambitious",
-      "att_6" : "Independent"
+    { "type" : "ENTJ",
+
+      "attributes" :
+      ["Strategic", "Logical",
+      "Efficient", "Outgoing",
+      "Ambitious", "Independent"]
     }
-  }
+  }]
+
+
 }

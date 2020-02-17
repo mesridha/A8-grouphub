@@ -16,52 +16,48 @@
     <![endif]-->
   </head>
   <body>
-	<!-- this is a comment in HTML -->
-	<div class="container">
-		<div class="jumbotron">
-  			<h1>{{projectName}}</h1>
-		</div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <table class="table">
-          <thead>
-            <tr>
-              <th>Team Member</td>
-              <th>Traits</td>
-              <th>Roles</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Spencer</td>
-              <td>INTP</td>
-              <td>Flexible &middot; Insightful &middot; Precise &middot; Imaginative &middot; Reserved &middot; Analytical</td>
-              <td>Analytics | Individual Work</td>
-            </tr>
-            <tr>
-              <td>Meghana</td>
-              <td>ESFJ</td>
-              <td>Friendly &middot; Out-going &middot; Reliable &middot; Conscientious &middot; Organized &middot; Practical</td>
-              <td>Manager | Coordinator | Group Work</td>
-            </tr>
-          </tbody>
-        </table>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>{{projectName}}</h1>
       </div>
+
+      <!-- Create grid of traits/IDs -->
+      {{#each 120_members}}
+      <h2>{{userName}} {{p_type}}</h2>
+
+      <div class="grid-container">
+        {{#each attributes}}
+
+        <!-- Get the Attributes/roles as arrays -->
+          <div class="grid-item">
+            <a href="../help" class="thumbnail traits">{{this}}</a>
+          </div>
+        {{/each}}
+
+        <h3>Group Roles</h3>
+        <hr>
+        <hr>
+        {{#each role_type}}
+          <div class="grid-container">
+            <div class="grid-item">
+              <a href="../help">{{this}}</a>
+            </div>
+          </div>
+        {{/each}}
+       </div>
+      {{/each}}
+
+      <input type="submit" id="submitBtn" class="btn btn-default" value="Edit Traits"></input>
+      <input type="submit" id="submitBtn" class="btn btn-default" value="Edit Roles"></input>
+      <hr>
+
+      <p>
+        <input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = 'javascript:history.go(-1)';" value="Home"/>
+      </p>
+      <br>
+
     </div>
-    <input type="submit" id="submitBtn" class="btn btn-default" value="Edit Traits"></input>
-    <input type="submit" id="submitBtn" class="btn btn-default" value="Edit Roles"></input>
-    <hr>
-    <p>
-<!--       <a href="javascript:history.go(-1)" title="Return to the previous page">&laquo; Home</a> -->
-      <input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = 'javascript:history.go(-1)';" value="Home"/>
-    </p>
-
-    <br>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script>
   </body>
 </html>

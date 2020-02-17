@@ -14,6 +14,7 @@ var index = require('./routes/index');
 // var user = require('./routes/user');
 //var index = require('./routes/index');
 var project = require('./routes/project');
+var help = require('./routes/help');
 
 var app = express();
 
@@ -41,6 +42,7 @@ if ('development' == app.get('env')) {
 app.get('/', login.view);
 app.get('/home', index.view);
 app.get('/project/:name', project.viewProject);
+app.get('/help', help.view);
 // Example route
 // app.get('/users', user.list);
 

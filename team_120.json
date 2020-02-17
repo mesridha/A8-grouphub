@@ -1,24 +1,23 @@
-{ "members" : [
-  { "name" : "Spencer",
-    "p_type" : "INTP",
-    "att_1" : "Flexible",
-    "att_2" : "Insightful",
-    "att_3" : "Precise",
-    "att_4" : "Imaginative",
-    "att_5" : "Reserved",
-    "att_6" : "Analytical",
-    "role_type" : ["Individual Work", "Analytics"]
-  },
-  {
-    "name" : "Meghana",
-    "p_type" : "ESFJ",
-    "att_1" : "Friendly",
-    "att_2" : "Out-going",
-    "att_3" : "Reliable",
-    "att_4" : "Conscientious",
-    "att_5" : "Organized",
-    "att_6" : "Practical",
-    "role_type" : ["Manager", "Coordinator", "Group Work"]
-  }
-  ]
-}
+{ "120_members" : [
+    { "userName" : "Spencer",
+      "p_type" : "INTP",
+
+      "attributes" :
+      [ "Flexible", "Insightful",
+      "Precise", "Imaginative",
+      "Reserved", "Analytical"],
+
+      "role_type" : ["Individual Work", "Analytics"]
+    },
+    {
+      "userName" : "Meghana",
+      "p_type" : "ESFJ",
+
+      "attributes" :
+      [ "Friendly", "Out-going",
+      "Reliable", "Conscientious",
+      "Organized", "Practical"],
+
+      "role_type" : ["Manager", "Coordinator", "Group Work"]
+    }
+  ]}
