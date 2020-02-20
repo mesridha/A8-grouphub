@@ -22,22 +22,22 @@
 	<div class="container">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
-		<div class="jumbotron">
-			<h1>My Groups</h1>
-	    	<input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = '/creategroup';" value="Create Group"></input>
-    		<input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = '/joingroup';" value="Join Group"></input>
-    		<input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = '/login';" value="Log In"></input>
+		<h1>Personality Quiz</h1>
+
+		<div class="personality" >
+			<p> <a href="https://openpsychometrics.org/tests/OEJTS/">Take a quick personality quiz here!</a>
+			</p>
+			<p>	
+				<h4 style="padding-top:10px">Enter the 4 letters of your personality type: </h4>
+				<input type="text" placeholder="ex. ISFJ"><br>
+			</p>
+			<input type="submit" id="submitBtn" class="btn btn-default" onclick="window.location.href = '/project/CSE170';" value="Next"></input>
 		</div>
+
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-    	{{#each projects}}
-     		<div class="project" id="{{id}}">
-        		<a href="project/{{name}}" class="thumbnail">
-          			<img src="images/{{image}}" ... />
-        		</a>
-      		</div>
-    	{{/each}}
+
 	</div>
 
 	<script src="https://code.jquery.com/jquery.js"></script>

@@ -33,6 +33,31 @@
      text-align: center;
 }
 
+.personality{
+  position: absolute;
+  background: none;
+}
+
+.personality:after{
+  position: absolute;
+  left: 10.13%;
+  right: 8.53%;
+  top: 24.44%;
+  bottom: 71.81%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  padding: 10px;
+}
+
+.personality p {
+  color: #0A47A2;  
+}
+
 .body{
      position: fixed;
      overflow-y: scroll

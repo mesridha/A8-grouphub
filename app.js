@@ -15,6 +15,10 @@ var index = require('./routes/index');
 //var index = require('./routes/index');
 var project = require('./routes/project');
 var help = require('./routes/help');
+var personality = require('./routes/personality');
+var edit = require('./routes/edit');
+var creategroup = require('./routes/creategroup');
+var joingroup = require('./routes/joingroup');
 
 var app = express();
 
@@ -39,10 +43,14 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', login.view);
-app.get('/home', index.view);
+app.get('/login', login.view);
+app.get('/', index.view);
+app.get('/personality', personality.view);
+app.get('/edit', edit.view)
 app.get('/project/:name', project.viewProject);
 app.get('/help', help.view);
+app.get('/creategroup', creategroup.view);
+app.get('/joingroup', joingroup.view);
 // Example route
 // app.get('/users', user.list);
 
